@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Form, Input, Select, Button, Typography, Table, Space, Modal, message } from 'antd';
+import { Card, Form, Input, Select, Button, Typography, Table, Space, Modal, message, Switch } from 'antd';
 import { PlusOutlined, EditOutlined, DeleteOutlined, SaveOutlined } from '@ant-design/icons';
 import { modelService } from '../services/modelService';
 
