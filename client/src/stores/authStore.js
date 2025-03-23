@@ -22,7 +22,7 @@ export const useAuthStore = create((set, get) => ({
       return true;
     } catch (error) {
       set({ 
-        error: error.response?.data?.message || '登录失败，请检查用户名和密码',
+        error: error.response?.data?.message || 'login failed，please check username and password',
         isLoading: false,
         isAuthenticated: false
       });
@@ -44,7 +44,7 @@ export const useAuthStore = create((set, get) => ({
       return true;
     } catch (error) {
       set({ 
-        error: error.response?.data?.message || '注册失败，请稍后再试',
+        error: error.response?.data?.message || 'register failed，please try again later',
         isLoading: false
       });
       return false;

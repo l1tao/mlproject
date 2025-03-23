@@ -41,8 +41,8 @@ const Login = () => {
         }}
       >
         <div style={{ textAlign: 'center', marginBottom: 24 }}>
-          <Title level={2}>内网AI对话平台</Title>
-          <Text type="secondary">登录您的账户</Text>
+          <Title level={2}>inner network AI chat platform</Title>
+          <Text type="secondary">login to your account</Text>
         </div>
 
         {error && (
@@ -65,22 +65,22 @@ const Login = () => {
         >
           <Form.Item
             name="username"
-            rules={[{ required: true, message: '请输入用户名' }]}
+            rules={[{ required: true, message: 'please enter username' }]}
           >
             <Input 
               prefix={<UserOutlined />} 
-              placeholder="用户名" 
+              placeholder="username" 
               size="large" 
             />
           </Form.Item>
 
           <Form.Item
             name="password"
-            rules={[{ required: true, message: '请输入密码' }]}
+            rules={[{ required: true, message: 'please enter password' }]}
           >
             <Input.Password 
               prefix={<LockOutlined />} 
-              placeholder="密码" 
+              placeholder="password" 
               size="large" 
             />
           </Form.Item>
@@ -93,14 +93,14 @@ const Login = () => {
               block
               size="large"
             >
-              登录
+              login
             </Button>
           </Form.Item>
 
           <div style={{ textAlign: 'center' }}>
             <Space>
-              <Text type="secondary">还没有账号?</Text>
-              <Link to="/register">立即注册</Link>
+              <Text type="secondary">haven't got an account?</Text>
+              <Link to="/register">register immediately</Link>
             </Space>
           </div>
         </Form>

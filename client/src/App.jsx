@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ConfigProvider, theme } from 'antd';
 import { useAuthStore } from './stores/authStore';
+import { useThemeStore } from './stores/themeStore';
 
 // 页面组件
 import Login from './pages/Login';
@@ -29,10 +30,19 @@ const ProtectedRoute = ({ children }) => {
 };
 
 function App() {
+  const { theme: currentTheme } = useThemeStore();
+  
+  // 根据当前主题选择算法
+  const themeAlgorithm = {
+    'light': theme.defaultAlgorithm,
+    'dark': theme.darkAlgorithm,
+    'system': window.matchMedia('(prefers-color-scheme: dark)').matches ? theme.darkAlgorithm : theme.defaultAlgorithm
+  };
+  
   return (
     <ConfigProvider
       theme={{
-        algorithm: theme.darkAlgorithm,
+        algorithm: themeAlgorithm[currentTheme],
         token: {
           colorPrimary: '#1677ff',
           borderRadius: 6,

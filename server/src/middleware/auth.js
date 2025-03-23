@@ -7,7 +7,7 @@ const authMiddleware = (req, res, next) => {
   const token = req.header('Authorization')?.replace('Bearer ', '');
   
   if (!token) {
-    return res.status(401).json({ message: '无访问权限，请先登录' });
+    return res.status(401).json({ message: 'no access，please login first' });
   }
   
   try {
@@ -18,11 +18,11 @@ const authMiddleware = (req, res, next) => {
     const db = getDb();
     db.get('SELECT id, username FROM users WHERE id = ?', [decoded.id], (err, user) => {
       if (err) {
-        return res.status(500).json({ message: '服务器错误' });
+        return res.status(500).json({ message: 'server error' });
       }
       
       if (!user) {
-        return res.status(401).json({ message: '用户不存在，请重新登录' });
+        return res.status(401).json({ message: 'user not exist，please login again' });
       }
       
       // 将用户信息添加到请求对象
@@ -31,8 +31,8 @@ const authMiddleware = (req, res, next) => {
       next();
     });
   } catch (error) {
-    console.error('认证错误:', error);
-    res.status(401).json({ message: '令牌无效，请重新登录' });
+    console.error('authentication error:', error);
+    res.status(401).json({ message: 'token invalid，please login again' });
   }
 };
 

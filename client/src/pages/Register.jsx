@@ -23,7 +23,7 @@ const Register = () => {
       form.setFields([
         {
           name: 'confirmPassword',
-          errors: ['两次输入的密码不一致']
+          errors: ['password not match']
         }
       ]);
       return;
@@ -51,8 +51,8 @@ const Register = () => {
         }}
       >
         <div style={{ textAlign: 'center', marginBottom: 24 }}>
-          <Title level={2}>内网AI对话平台</Title>
-          <Text type="secondary">创建新账户</Text>
+          <Title level={2}>inner network AI chat platform</Title>
+          <Text type="secondary">create new account</Text>
         </div>
 
         {error && (
@@ -76,13 +76,13 @@ const Register = () => {
           <Form.Item
             name="username"
             rules={[
-              { required: true, message: '请输入用户名' },
-              { min: 3, message: '用户名至少3个字符' }
+              { required: true, message: 'please enter username' },
+              { min: 3, message: 'username need at least 3 character' }
             ]}
           >
             <Input 
               prefix={<UserOutlined />} 
-              placeholder="用户名" 
+              placeholder="username" 
               size="large" 
             />
           </Form.Item>
@@ -90,24 +90,24 @@ const Register = () => {
           <Form.Item
             name="password"
             rules={[
-              { required: true, message: '请输入密码' },
-              { min: 6, message: '密码至少6个字符' }
+              { required: true, message: 'please enter password' },
+              { min: 6, message: 'password need at least 6 character' }
             ]}
           >
             <Input.Password 
               prefix={<LockOutlined />} 
-              placeholder="密码" 
+              placeholder="password" 
               size="large" 
             />
           </Form.Item>
 
           <Form.Item
             name="confirmPassword"
-            rules={[{ required: true, message: '请确认密码' }]}
+            rules={[{ required: true, message: 'please confirm password' }]}
           >
             <Input.Password 
               prefix={<LockOutlined />} 
-              placeholder="确认密码" 
+              placeholder="confirm password" 
               size="large" 
             />
           </Form.Item>
@@ -120,14 +120,14 @@ const Register = () => {
               block
               size="large"
             >
-              注册
+              register
             </Button>
           </Form.Item>
 
           <div style={{ textAlign: 'center' }}>
             <Space>
-              <Text type="secondary">已有账号?</Text>
-              <Link to="/login">返回登录</Link>
+              <Text type="secondary">already have an account?</Text>
+              <Link to="/login">back to login</Link>
             </Space>
           </div>
         </Form>
