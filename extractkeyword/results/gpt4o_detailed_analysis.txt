@@ -1,0 +1,217 @@
+# GPT-4o关键词提取详细分析
+
+
+## 章节: Chapter 1
+Precision: 0.6500, Recall: 0.1398, F1: 0.2301
+
+### 正确提取的关键词 (13):
+unsupervised learning, online learning, instance-based learning, feature engineering, model-based learning, clustering, overfitting, supervised learning, batch learning, reinforcement learning, machine learning, underfitting, regularization
+
+### 未提取到的关键词 (80):
+algorithms covered, agents, association rule learning, visualization algorithms, training data, ocr, ml, out-of-sample error, generalization error, out-of-core learning, training samples, cross-validation, linear models, mini-batches, hold outs, feature extraction, training instances, model selection, anomaly detection, feature selection, training sets, regression problems, data mismatch, sampling noise, corpus development, attributes, train-dev sets, hierarchical clustering algorithms, development sets, rbms, poor quality, hyperparameter tuning, training, rl, fitness functions, penalties, spam filters, inference, fully-specified model architecture, classification with, deep belief networks, noisy data, linear model, nfl, semi-supervised learning, holdout validation, k-nearest neighbors regression, measure of similarity, optical character recognition, classification mlps, restricted boltzmann machines, rewards, policies, prediction problems, incremental learning, no free lunch, responsibilities, better life index, dbns, model parameters, importance of over algorithms, common tasks, clustering algorithms, features, hyperparameters, labels, final trained models, causal models, nonrepresentative, utility functions, dev sets, offline learning, learning rate, irrelevant features, validation sets, importance of data over, novelty detection, test sets, testing and validating, sampling bias
+
+### 错误提取的关键词 (7):
+spam filter, dimensionality reduction, hyperparameter, test set, training set, validation set, regression
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 13
+Precision: 0.3000, Recall: 0.1154, F1: 0.1667
+
+### 正确提取的关键词 (6):
+embedding, tfds, tf transform, preprocessing, data api, prefetching
+
+### 未提取到的关键词 (46):
+pipelines, loading and parsing examples, lists of lists using sequenceexample proto‐buf, tf-idf, preprocessing input features, tensorflow data api, cnns, tfx, datasets, prefetching data, compressed tfrecord files, shuffling-buffer approach, representation learning, term-frequency × inverse-document-frequency, word embeddings, using datasets with tf.keras, tf.transform, lists of lists using sequenceexample protobuf, voice recognition, protocol buffers, tf.keras, out-of-vocabulary, embedding matrix, sequenceexample protobuf, chaining transformations, helper function creation, oov, preprocessing layers, tf datasets, shuffling, tensorflow protobufs, encoding using one-hot vectors, preprocessing data, protobufs, chaining, tensorflow datasets, tfrecord format, one-hot vectors, encoding using embeddings, shuffling data, helper functions, tensorflow extended, vocabulary, training/serving skew, memory bandwidth, bag of words
+
+### 错误提取的关键词 (14):
+tensorflow, one-hot encoding, apache beam, tf.data.dataset, multithreading, normalization, serialization, tfrecord, protobuf, dataset, batching, categorical features, gradient descent, keras
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 14
+Precision: 0.5263, Recall: 0.1136, F1: 0.1869
+
+### 正确提取的关键词 (10):
+alexnet, resnet, googlenet, yolo, vggnet, senet, semantic segmentation, lenet-5, xception, object detection
+
+### 未提取到的关键词 (78):
+pooling layer, rpn, using pretrained models from, convolution kernels, objectness output, extreme inception, pretrained models from keras, you only look once, filters, zero padding, data augmentation, single-shot learning, architecture of visual cortex, residual learning, bounding box priors, se-inception, residual units, transfer learning, anchor boxes, cnn architectures, se-resnet, se block, stride, map, implementing resnet-34 with, convolutional layer, fully convolutional networks, average precision, localization, residual network, color channels, stacking multiple feature maps, resnet-34 using keras, pretraining, convolutional layers, shortcut connections, pooling kernel, non-max suppression, depth radius, average pooling layer, resnet-34 cnn, convolution operations, separable convolution, wordtrees, zf net, softmax function, fcns, pretrained models for transfer learning, models from keras, global average pooling layer, squeeze-and-excitation network, image generation, equivariance, memory requirements, feature maps, softmax, recurrent neural networks, max pooling layer, region proposal network, invariance, depthwise separable convolution, upsampling layer, classification and localization, depth concat layer, instance segmentation, bottleneck layers, transposed convolutional layer, local response normalization, mask r-cnn, autonomous driving systems, skip connections, sequences, ap, adversarial learning, subsampling, mean average precision, tensorflow implementation, rnns
+
+### 错误提取的关键词 (9):
+tensorflow, convolutional neural networks, deep computer vision, image recognition, cnns, david h. hubel, visual cortex, torsten wiesel, keras
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 15
+Precision: 0.4500, Recall: 0.1500, F1: 0.2250
+
+### 正确提取的关键词 (9):
+backpropagation through time, natural language processing, wavenet, gru, forecasting, 1d convolutional layers, memory cells, lstm, deep rnns
+
+### 未提取到的关键词 (51):
+forget gate, long short-term memory, sequence-to-sequence models, chatbots, imputation, arima, multivariate time series, autoregressive integrated moving average, basic cells, turing test, baseline metrics, input and output sequences, output gate, naive forecasting, handling long sequences, handling long, weighted moving average model, unrolling the network through time, mean squared error, forecasting several steps ahead, time step, vector-to-sequence networks, short-term memory problems, bptt, univariate time series, recurrent neurons, gate controllers, 1d convolutional layer, differencing, gated recurrent unit, logit regression, unstable gradients problem, sequence-to-vector networks, encoders, see logistic regression, peephole connections, recurrent neurons and layers, input and output, causal models, long sequences short-term memory problems, simple rnns, layer normalization, training, encoder–decoder model, stateless and stateful, nlp, input gate, decoders, forecasting time series, recurrent, time series data
+
+### 错误提取的关键词 (11):
+recurrent neural networks, rnns, sequences, attention mechanisms, encoder-decoder, cnns, unstable gradients, stock prices, time series, autonomous driving, sequence-to-sequence
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 16
+Precision: 0.2000, Recall: 0.0494, F1: 0.0792
+
+### 正确提取的关键词 (4):
+neural machine translation, attention mechanisms, sentiment analysis, natural language processing
+
+### 未提取到的关键词 (77):
+word tokenization, masking, start of sequence, next sentence prediction, bahdanau attention, zero-shot learning, end-of-sequence, bidirectional rnns, temperature, transformer architecture, testing and validation, latent representations, tensorflow hub, nested datasets, masked multi-head attention layer, training dataset creation, tensorflow addons, mask tensors, beam search, sentence encoders, sampled softmax technique, sos, self-attention mechanism, embedded reber grammars, loss functions, generating text using character rnns, google news 7b corpus, stylegans, tf.text library, byte-pair encoding, positional encodings, chopping sequential datasets, nlp, stateless and stateful, nmt, encoder–decoder network, bidirectional recurrent layer, building and training, masked language model, beam width, conditional probability, regular expressions, multiplicative attention, stateful rnns and, concatenative attention, additive attention, dot product, explainability and, flat datasets, softmax function, zsl, attention mechanism, entailment, generating shakespearean text, char-rnns, character rnns, dense vectors, explainability, splitting sequential datasets, truncated backpropagation through time, softmax, bidirectional recurrent layers, multi-head attention layer, text generation, tokenization, autoencoders, modules, see cost functions, language models, reusing pretrained embeddings, mlm, eos, encoder–decoder model, scaled dot-product attention layer, visual attention, internet movie database, nsp
+
+### 错误提取的关键词 (16):
+recurrent neural networks, character rnn, encoder–decoder architecture, stateless rnn, gpt-2, bert, chatbot, stateful rnn, turing test, transformer, seq2seq api, tensorflow dataset, shakespearean text, rnns, char-rnn, attention
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 17
+Precision: 0.5000, Recall: 0.1299, F1: 0.2062
+
+### 正确提取的关键词 (10):
+recurrent autoencoders, stylegans, variational autoencoders, denoising autoencoders, unsupervised pretraining, sparse autoencoders, stacked autoencoders, convolutional autoencoders, autoencoders, mode collapse
+
+### 未提取到的关键词 (67):
+reinforcement learning, deep autoencoders, using keras, stacked, pattern matching, affine transformations, undercomplete autoencoders, unsupervised pretraining using stacked, adain, overcomplete autoencoders, semantic interpolation, fashion mnist dataset, generative network, recognition network, style transfer, dcgans, nash equilibrium, rl, generative adversarial networks, sparsity, generators, undercomplete, recurrent, normalization, undercomplete linear autoencoders, greedy layer-wise training, generative autoencoders, discriminators, efficient data representations, reconstruction loss, adaptive instance normalization, sparsity loss, sparse, experience replay, variational, visualizing fashion mnist dataset, mean squared error, using stacked autoencoders, pca with undercomplete linear autoencoders, pixelwise normalization layers, minibatch standard deviation layer, versus generative adversarial networks, tying weights, mean coding, difficulties of training, pretraining using stacked autoencoders, minibatch discrimination, encoders, reconstructions, stacked denoising autoencoders, denoising, gans, convolutional, learning rate, bayesian inference, probabilistic autoencoders, adversarial learning, generative, equalized learning rates, style mixing, deep convolutional gans, decoders, probabilistic, linear autoencoders, mixing regularization, visualizing reconstructions, latent loss
+
+### 错误提取的关键词 (10):
+generative adversarial networks (gans), dimensionality reduction, adversarial training, generative models, progressive growing of gans, latent representations, super resolution, deep learning, representation learning, stylegan
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 18
+Precision: 0.3500, Recall: 0.0714, F1: 0.1186
+
+### 正确提取的关键词 (7):
+q-learning, markov decision processes, deep q-learning, policy gradients, deep q-networks, tf-agents library, openai gym
+
+### 未提取到的关键词 (91):
+policy search, rainbow agent, neural network policies, dynamic programming, off-policy algorithms, dueling dqn, value iteration algorithm, a2c, datasets, training metrics, training architecture, evaluating, markov chains, policy parameters, soft actor-critic algorithm, td error, bellman optimality equation, pg, state-action values, simulated environments, curiosity-based exploration, optimal state value, replay buffer and observer, action step, credit assignment problem, boundary transitions, double dueling dqn, batched trajectory, observers, advantage actor-critic, collect policy, environment wrappers, asynchronous advantage actor-critic, exploiting versus exploring, batched action step, online model, replay memory, collect driver, a3c, atari preprocessing, queries per second, q-value iteration, sample inefficiency, per, policy space, importance sampling, reinforce algorithms, temporal difference learning, exploration policy, a/b experiments, ppo, target model, is, trajectories, deques, policies, genetic algorithms, replay buffers, batched time step, terminal state, environment specifications, undiscounted rewards, mean squared error, optimizing rewards, stochastic policy, mdp, installing, trajectory, on-policy algorithms, actor-critic algorithms, dqn agents, td target, environments, training loops, dueling dqn algorithm, q-values, tensorflow model deployment at scale, qps, td learning, fixed q-value targets, implementing, evaluating actions, approximate q-learning, dqns, proximal policy optimization, action advantage, prioritized experience replay, catastrophic forgetting, discount factors, double dqn, approximate q-learning and deep q- learning
+
+### 错误提取的关键词 (13):
+agent, deepmind, training loop, neural network policy, atari games, exploration, discount factor, reinforcement learning, rewards, alphago, replay buffer, deep learning, environment
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 19
+Precision: 0.1000, Recall: 0.0168, F1: 0.0288
+
+### 正确提取的关键词 (2):
+model parallelism, data parallelism
+
+### 未提取到的关键词 (117):
+inequality constraints, launching monitoring and maintaining, jupyterlab, computing gradients using autodiff, placing operations and variables on devices, fake quantization, virtual gpu devices, data preparation, model fine-tuning, parameter servers, visible units, synchronous updates, embedded devices, gcs, stale gradients, tensorflow cluster, creating on gcp ai, data downloading, cluster specification, deep learning vm images, temperature, machine learning project checklist, service account, stationary point, function graphs, cuda, complementary slackness, allreduce algorithm, using gpus to speed computations, framing the problem, automatic differentiation, gpus, parallel execution across multiple devices, ai platform, mobile devices, training models across multiple devices, function definitions, reverse-mode autodiff, hopfield networks, associative memory networks, managing gpu ram, kkt, active constraint, rbms, gpu-equipped virtual machines, prediction service creation, logical gpu devices, spurious patterns, nvidia gpu cards, finite difference approximation, boltzmann machines, bandwidth saturation, colab runtime, spare replicas, nccl, savedmodel format, dual numbers, graphs generated by, colab, contrastive divergence, dynamic placer algorithm, google cloud storage, karush–kuhn–tucker, deep belief networks, generalized lagrangian, data visualization, hidden units, metagraphs, stochastic neurons, compute unified device architecture library, special data structures, model selection and training, quantization-aware training, ml engine, manual differentiation, queues, post-training quantization, exercise solutions, sparse tensors, self-organizing maps, string tensors, inter-op thread pool, restricted boltzmann machines, tensor arrays, distribution strategies api, lagrange multipliers, serving tensorflow models, symbolic tensors, nvidia collective communications library, dbns, graphics processing units, symbolic differentiation, asynchronous updates, cudnn, input signatures, energy function, deploying to mobile and embedded devices, sets, concrete functions, colaboratory, canary testing, speeding computations with, thermal equilibrium, autograph and tracing, dual problem, prediction service use, forward-mode autodiff, cuda deep neural network library, mirrored strategy, ragged tensors, intra-op thread pool, warmup phase, selecting, newton's difference quotient, training across multiple devices, autodiff, soms
+
+### 错误提取的关键词 (18):
+quantization, tensorflow, grpc api, savedmodel, neural network, model deployment, google cloud ai platform, rest api, tf serving, distributed training, bayesian optimization, cloud service, tpu, gpu, hyperparameter tuning, machine learning, mirroredstrategy, tflite
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 2
+Precision: 0.2000, Recall: 0.0465, F1: 0.0755
+
+### 正确提取的关键词 (4):
+data visualization, feature scaling, fine-tuning, transformation pipelines
+
+### 未提取到的关键词 (82):
+launching monitoring and maintaining, average absolute deviation, correlation coefficient, data preparation, serializing large arrays, duck typing, model fine-tuning, representation learning, evaluating, mean_squared_error function, ml, transformation sequences, manhattan norm, data downloading, design principles, sparse matrix, k-fold cross-validation, machine learning project checklist, geographical data, dense arrays, isolated environments, cross-validation, transformers and, gridsearchcv, data cleaning, framing the problem, model selection, custom transformers, k-fold cross-validation feature, converting text to numbers, verifying assumptions, downloading, one-hot vectors, selecting performance measure, hyperparameter tuning, deploying on ai platforms, training, stratified sampling, handling text and categorical attributes, components, machine learning, tail-heavy histograms, pipelines, standardization, project goals, normalization, mae, multivariate regression problems, data snooping bias, euclidean norm, model selection and training, example project, computing correlations, one-hot encoding, workspace creation, standard correlation coefficient, dummy attributes, transformations, test sets, rmse, root mean square error, exploration sets, histograms, predictors, attribute combinations, installing, multiple regression problems, mnist dataset, dataset dictionary structure, estimators, saving models, pearson's r, labels, folds, embedding, mean absolute error, univariate regression problems, missing value handling, min-max scaling, california housing prices dataset, test training and exploration sets, splitting datasets into subsets
+
+### 错误提取的关键词 (16):
+root mean square error (rmse), census data, machine learning project, model training, real estate company, solution presentation, data scientist, machine learning algorithms, real data, system maintenance, california housing prices, big picture, performance measure, median housing price, open datasets, mean absolute error (mae)
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 3
+Precision: 0.4737, Recall: 0.1915, F1: 0.2727
+
+### 正确提取的关键词 (9):
+multilabel classification, precision, f1 score, multiclass classification, roc curve, cross-validation, multioutput classification, confusion matrix, recall
+
+### 未提取到的关键词 (38):
+roc, area under the curve, online learning, one-versus-all, sensitivity, stochastic gradient descent, ovo, true positive rate, tnr, harmonic mean, decision function, one-versus-the-rest, k-fold cross-validation, skewed datasets, gd, ovr, true negative rate, false positive rate, computing classifier metrics, binary classifiers, auc, tpr, error analysis, cross_val_score() function, gradient descent, randint() function, folds, sgdclassifier class, receiver operating characteristic, accuracy, fpr, performance measures, approaches to training, training models, sgd, ova, one-versus-one, multinomial classifiers
+
+### 错误提取的关键词 (10):
+supervised learning, scikit-learn, classification, mnist dataset, one-versus-one (ovo), one-versus-the-rest (ovr), stochastic gradient descent (sgd), precision/recall trade-off, randomforestclassifier, binary classifier
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 4
+Precision: 0.6000, Recall: 0.1538, F1: 0.2449
+
+### 正确提取的关键词 (12):
+ridge regression, polynomial regression, logistic regression, linear regression, stochastic gradient descent, bias/variance trade-off, softmax regression, gradient descent, learning curves, mini-batch gradient descent, elastic net, lasso regression
+
+### 未提取到的关键词 (66):
+linear svm classification, subgradient vector, svms, learning schedules, normalized exponential, tolerance, training and cost function, random initialization, iris dataset, kullback–leibler divergence, epochs, sigmoid, bias terms, convergence, argmax operator, regularization terms, mini-batches, computational complexity, tikhonov regularization, batch gradient descent, linear algebra, logit, regularized linear models, cross-entropy loss, parameter vector, normal equation, parameter matrix, calculus, inv() function, estimating probabilities, large margin classification, iid, singular value decomposition, early stopping, identity matrix, support vector machines, local minimum, parameter vectors, softmax function, linear regression model, closed-form solution, gd, full gradient descent, rmse, subgradient vectors, root mean square error, mean squared error, feature vector, independent and identically distributed, svd, decision boundaries, column vectors, convex function, feature vectors, parameter space, multinomial logistic regression, log loss, intercept terms, log-odds, learning rate, partial derivatives, approaches to training, logistic, sgd, simulated annealing, global minimum
+
+### 错误提取的关键词 (8):
+overfitting, optimization, cost function, machine learning, training models, regularization, underfitting, hyperparameters
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 5
+Precision: 0.3500, Recall: 0.1556, F1: 0.2154
+
+### 正确提取的关键词 (7):
+quadratic programming, support vectors, machine learning, soft margin classification, feature scaling, dual problem, kernel trick
+
+### 未提取到的关键词 (38):
+mercer's theorem, hinge loss, liblinear library, tolerance hyperparameter, sigmoid kernel, string subsequence kernel, training and visualizing, mercer's conditions, ml, radial basis function, similarity functions, rbf, decision function and prediction, constrained optimization, qp, polynomial features, libsvm library, training objective, svm models, kernelized svm, gaussian radial basis function, slack variables, svm classification classes, levenshtein distance, polynomial kernels, hyperplanes, hinge loss function, nonlinear svm classification, margin violations, svm regression, string kernels, hard margin classification, kernels, decision trees, primal problem, subderivatives, online svms, landmarks
+
+### 错误提取的关键词 (13):
+polynomial kernel, outlier detection, linear classification, large margin classification, gaussian rbf kernel, linear svm classifier, svm, c parameter, regression, online svm, nonlinear classification, support vector machines, hyperparameters
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 7
+Precision: 0.5000, Recall: 0.2222, F1: 0.3077
+
+### 正确提取的关键词 (10):
+soft voting, gradient boosting, boosting, feature importance, voting classifiers, adaboost, stacking, out-of-bag evaluation, extra-trees, random forests
+
+### 未提取到的关键词 (35):
+meta learners, adaptive boosting, statistical mode, majority-vote classifiers, stochastic gradient boosting, xgboost, samme, stacked generalization, weak learners, random patches and random subspaces, feature importance scoring, dimensionality reduction, extra-trees classifier, gradient tree boosting, stagewise additive modeling using a multiclass exponential loss function, gbrt, extratreesclassifier class, bagging and pasting, high-dimensional training sets, residual errors, training sets, blenders, hypothesis boosting, law of large numbers, incremental training, shrinkage technique, shrinkage, gradient boosted regression trees, hard voting classifiers, decision stumps, gbrt ensemble training, adaboost version, strong learners, adaboost classifiers, extremely randomized trees ensemble
+
+### 错误提取的关键词 (10):
+random subspaces, ensemble learning, random patches, machine learning algorithms, bagging, random forest, pasting, hard voting classifier, decision tree classifiers, wisdom of the crowd
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 8
+Precision: 0.7000, Recall: 0.2258, F1: 0.3415
+
+### 正确提取的关键词 (14):
+lle, linear discriminant analysis, manifold learning, dimensionality reduction, pca, t-sne, explained variance ratio, randomized pca, kernel pca, curse of dimensionality, training instances, projection, nonlinear dimensionality reduction, incremental pca
+
+### 未提取到的关键词 (48):
+principal component axis, automatic reconstruction with, incrementalpca class, isomap algorithm, decompression, svd() function, array_split() function, choosing dimension number, singular value decomposition, feature space, preserving, for compression, mds, full svd approach, unsupervised learning, kernelpca class, multidimensional scaling, nldr, t-distributed stochastic neighbor embedding, compressing, projecting down to d dimensions, memmap class, kpca, manifold assumption, pre-images, feature maps, reducing dimensionality, decompressing, principal component analysis, compression, inverse transformation, incremental, preserving variance, pcang, svd, randomized pca algorithm, randomized, subspace, ipca, manifold hypothesis, random projections, locally linear embedding, reconstruction pre-images, kernel trick, lda, kernels, reconstruction error, original space
+
+### 错误提取的关键词 (6):
+data visualization, swiss roll, high-dimensional space, mnist images, variance, principal components
+
+--------------------------------------------------------------------------------
+
+## 章节: Chapter 9
+Precision: 0.6000, Recall: 0.1154, F1: 0.1935
+
+### 正确提取的关键词 (12):
+local outlier factor, silhouette score, agglomerative clustering, clustering, dbscan, k-means, novelty detection, mini-batch k-means, affinity propagation, image segmentation, density estimation, anomaly detection
+
+### 未提取到的关键词 (92):
+recommender systems, label propagation, search engines, bayesian information criterion, accelerated and mini-batch, soft clustering, pdf, minimum covariance determinant, anomaly and novelty detection, active learning, isolation forest algorithm, likelihood function, affinity, aic, scaling input features, semantic segmentation, birch algorithm, fast-mcd, preprocessing, variational inference, lof, p, centroid initialization methods, silhouette coefficient, evidence lower bound, lloyd-forgy algorithm, hierarchical dbscan, uncertainty sampling, mean field variational inference, inertia, color segmentation, hard and soft clustering, map, customer segmentation, selecting cluster number, maximum likelihood estimate, accelerated k-means, gmm, for anomaly detection, for image segmentation, prior, hard clustering, expectation step, additional algorithms, preprocessing with, expectation-maximization, for semi-supervised learning, bic, black box stochastic variational inference, using gaussian mixtures, for preprocessing, categorical distribution, em, one-class svm algorithm, classification mlps, using clustering, gaussian mixtures model, core instances, theoretical information criterion, latent variables, gaussian mixture model, lloyd–forgy algorithm, proposed improvement to, observed variables, akaike information criterion, analyzing through clustering, bayesian gaussian mixture models, responsibilities, mle, additional algorithms for anomaly and novelty detection, outlier detection, bbsvi, maximum a-posteriori, variants, maximization step, hdbscan, clustering algorithms, posterior, instance segmentation, probability density function, labels, silhouette diagram, mean-shift algorithm, elbo, alpha channels, spectral clustering, centroids, inliers, optimal cluster number, variational parameters, fraud detection, k-means algorithm
+
+### 错误提取的关键词 (8):
+unsupervised learning, bayesian gaussian mixture, dimensionality reduction, gaussian mixture models, one-class svm, mean-shift, isolation forest, semi-supervised learning
+
+--------------------------------------------------------------------------------
+
+## 总体评估指标
+平均Precision: 0.4333
+平均Recall: 0.1265
+平均F1 Score: 0.1928
